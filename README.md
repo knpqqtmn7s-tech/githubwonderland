@@ -61,9 +61,9 @@ Creamos e incluimos router
 
 Ruta default
 
-@app.get("/")
-def root():
-   return {"message": "API running"}
+    @app.get("/")
+    def root():
+    return {"message": "API running"}
 
 Se crea la ruta “users.py” en el directorio “controllers”
 
