@@ -1,4 +1,4 @@
-# routes/users.py
+# importar del controlador
 from fastapi import APIRouter
 from app.api.controllers.usersCtrl import get_users
 
