@@ -41,14 +41,13 @@ Deactivate
 Instalación de fastapi dentro del entorno
 pip3 install “fastapi[standard]”
 
-Creación del archivo de rutas y controlador
+Creación del directorio de rutas y controlador
 
-mkdir app/api/routes/users.py
-mkdir app/api/controllers/usersCtrl.py
+    mkdir app/api/routes
+    mkdir app/api/controllers
 
 Creacion y configuracion de main.py 
-
-    Crea el archivo “main.py” en el directorio “api”
+Crea el archivo “main.py” en el directorio “api”
 
 Dentro de main.py importamos 
 
@@ -66,9 +65,7 @@ Ruta default
 def root():
    return {"message": "API running"}
 
-Se crea la ruta
-
-    Crea el archivo “users.py” en el directorio “controllers”
+Se crea la ruta “users.py” en el directorio “controllers”
 
 Importamos controlador de usuarios
 
@@ -78,20 +75,18 @@ Importamos controlador de usuarios
     
 Definimos la ruta
 
-@router.get("/users")
-def users():
-   return get_users()
+    @router.get("/users")
+    def users():
+    return get_users()
 
-Se crea el controlador
-
-    Crea archivo “usersCtrl.py” en el directorio “controllers”
+Se crea archivo “usersCtrl.py” en el directorio “controllers”
 
 Definimos el controlador
 
-def get_users():
-   return {
-       "message": "Lista de usuarios"
-   }
+    def get_users():
+    return {
+        "message": "Lista de usuarios"
+    }
 
 Ejecuta el comando
-    “fastapi dev app/api/main.py”    
+    fastapi dev app/api/main.py    
