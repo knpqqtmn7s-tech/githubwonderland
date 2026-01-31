@@ -10,6 +10,21 @@ Nombre de la página.
 Descripcion
 Proyecto sobre página web dedicada a la publicación y consulta de información acerca de videojuegos independientes (indie). Desarrolladores y aficionados podrán crear, publicar y difundir blogs en un espacio especializado para ellos. Se realizarán reseñas, análisis, noticias y experiencias u opiniones sobre este tipo de videojuegos. 
 
+Que resuelve?
+El sistema se encarga de dar un espacio para aficionados y lectores concurrentes de noticias y anuncios sobre los videojuegos indie.
+
+Entidades
+
+Usuarios: Autores del contenido, entidad independiente con posibilidad de futuras extensiones.
+
+Artículos: Nucleo del sistema y actúan como vínculo entre usuarios y videojuegos.
+
+Games: Modela como una entidad central para evitar duplicación de información cuando múltiples artículos hacen referencia al mismo juego.
+
+Genre: Define una entidad separada para normalizar los datos y permitir clasificaciones reutilizables.
+
+Desarrolladores y Publishers: Modela como entidades independientes para reflejar relaciones reales de la industria del videojuego y permitir que múltiples juegos compartan el mismo desarrollador o editor.
+ß
 Stack
 
 Vanilla HTML/CSS/Javascript: Debido a las restricciones establecidas por parte de la administración, el uso vanilla frontend fue elegido por su sencillez y simpleza.
