@@ -20,7 +20,7 @@ El sistema se encarga de dar un espacio para aficionados y lectores concurrentes
 
 - RESTful API:La forma de comunicación estructurada, segura y escalable que se establece entre frontend y backend, elegida por la claridad de separación de cada parte del proyecto (Backend encargado de la lógica, Frontend la interfaz). 
 
-##Carpetas / directorio existente.
+## Carpetas / directorio existente.
 Existen dos carpetas principales dentro del proyecto:
 
 - frontEnd: Alberga las interfaces del usuario (páginas, formularios, botones, etc.) donde se puede enviar y recibir datos para las operaciones backend. Despliega la información disponible, las selecciones del usuario, renderización de respuestas, etc.
