@@ -30,7 +30,6 @@ Se modeló como relación 1:N porque:
 - Cada artículo está relacionado con un solo juego.
 
 ### Regla de integridad
-
 Un juego solo puede tener un género primario. Esto garantiza coherencia en la clasificación y demuestra control de reglas de negocio.
 ---
 
