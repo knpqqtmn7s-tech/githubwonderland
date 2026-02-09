@@ -1,48 +1,33 @@
+#Plataforma de blogs indie.
 
-Proyecto.
+##Nombre de la página. 
 
-Plataforma de blogs indie.
+Platind
 
-Nombre de la página. 
-
-–Pendiente–
-
-Descripcion
+##Descripcion
 Proyecto sobre página web dedicada a la publicación y consulta de información acerca de videojuegos independientes (indie). Desarrolladores y aficionados podrán crear, publicar y difundir blogs en un espacio especializado para ellos. Se realizarán reseñas, análisis, noticias y experiencias u opiniones sobre este tipo de videojuegos. 
 
-Que resuelve?
+##Que resuelve?
 El sistema se encarga de dar un espacio para aficionados y lectores concurrentes de noticias y anuncios sobre los videojuegos indie.
 
-Entidades
+##Stack
 
-Usuarios: Autores del contenido, entidad independiente con posibilidad de futuras extensiones.
+- Vanilla HTML/CSS/Javascript: Debido a las restricciones establecidas por parte de la administración, el uso vanilla frontend fue elegido por su sencillez y simpleza.
 
-Artículos: Nucleo del sistema y actúan como vínculo entre usuarios y videojuegos.
+- FastAPI: Beneficioso debido al alto rendimiento y rapidez que ofrece al manejar filtros y cargar publicaciones. Tal como es mencionado en su página oficial es rápido a la par de Node.js gracias a Starlette y Pydantic además de ser intuitivo y fácil de aprender sobre la marcha.
 
-Games: Modela como una entidad central para evitar duplicación de información cuando múltiples artículos hacen referencia al mismo juego.
+- Postgresql: Escalabilidad y flexibilidad. Es un sistema orientado a objetos por el cual se puede manejar los usuarios, sus roles y todas las publicaciones que puedan realizar de manera eficiente y estructurada.
 
-Genre: Define una entidad separada para normalizar los datos y permitir clasificaciones reutilizables.
+- RESTful API:La forma de comunicación estructurada, segura y escalable que se establece entre frontend y backend, elegida por la claridad de separación de cada parte del proyecto (Backend encargado de la lógica, Frontend la interfaz). 
 
-Desarrolladores y Publishers: Modela como entidades independientes para reflejar relaciones reales de la industria del videojuego y permitir que múltiples juegos compartan el mismo desarrollador o editor.
-ß
-Stack
-
-Vanilla HTML/CSS/Javascript: Debido a las restricciones establecidas por parte de la administración, el uso vanilla frontend fue elegido por su sencillez y simpleza.
-
-FastAPI: Beneficioso debido al alto rendimiento y rapidez que ofrece al manejar filtros y cargar publicaciones. Tal como es mencionado en su página oficial es rápido a la par de Node.js gracias a Starlette y Pydantic además de ser intuitivo y fácil de aprender sobre la marcha.
-
-Postgresql: Escalabilidad y flexibilidad. Es un sistema orientado a objetos por el cual se puede manejar los usuarios, sus roles y todas las publicaciones que puedan realizar de manera eficiente y estructurada.
-
-RESTful API:La forma de comunicación estructurada, segura y escalable que se establece entre frontend y backend, elegida por la claridad de separación de cada parte del proyecto (Backend encargado de la lógica, Frontend la interfaz). 
-
-Carpetas / directorio existente.
+##Carpetas / directorio existente.
 Existen dos carpetas principales dentro del proyecto:
 
-frontEnd: Alberga las interfaces del usuario (páginas, formularios, botones, etc.) donde se puede enviar y recibir datos para las operaciones backend. Despliega la información disponible, las selecciones del usuario, renderización de respuestas, etc.
+- frontEnd: Alberga las interfaces del usuario (páginas, formularios, botones, etc.) donde se puede enviar y recibir datos para las operaciones backend. Despliega la información disponible, las selecciones del usuario, renderización de respuestas, etc.
 
-backEnd: Donde se procesan las solicitudes entrantes del front end, funcionamiento de la lógica de las operaciones. Es responsable de la definición de las reglas, el procesamiento de peticiones, respuestas JSON, conexión a la base de datos, etc.
+- backEnd: Donde se procesan las solicitudes entrantes del front end, funcionamiento de la lógica de las operaciones. Es responsable de la definición de las reglas, el procesamiento de peticiones, respuestas JSON, conexión a la base de datos, etc.
 
-Creación (paso a paso):
+##Creación (paso a paso):
 
 Entorno virtual.
 python -m venv .venv
