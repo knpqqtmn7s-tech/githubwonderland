@@ -1,16 +1,16 @@
-#Plataforma de blogs indie.
+# Plataforma de blogs indie.
 
-##Nombre de la página. 
+## Nombre de la página. 
 
 Platind
 
-##Descripcion
+## Descripcion
 Proyecto sobre página web dedicada a la publicación y consulta de información acerca de videojuegos independientes (indie). Desarrolladores y aficionados podrán crear, publicar y difundir blogs en un espacio especializado para ellos. Se realizarán reseñas, análisis, noticias y experiencias u opiniones sobre este tipo de videojuegos. 
 
-##Que resuelve?
+## Que resuelve?
 El sistema se encarga de dar un espacio para aficionados y lectores concurrentes de noticias y anuncios sobre los videojuegos indie.
 
-##Stack
+## Stack
 
 - Vanilla HTML/CSS/Javascript: Debido a las restricciones establecidas por parte de la administración, el uso vanilla frontend fue elegido por su sencillez y simpleza.
 
@@ -27,7 +27,7 @@ Existen dos carpetas principales dentro del proyecto:
 
 - backEnd: Donde se procesan las solicitudes entrantes del front end, funcionamiento de la lógica de las operaciones. Es responsable de la definición de las reglas, el procesamiento de peticiones, respuestas JSON, conexión a la base de datos, etc.
 
-##Creación (paso a paso):
+## Creación (paso a paso):
 
 Entorno virtual.
 python -m venv .venv
